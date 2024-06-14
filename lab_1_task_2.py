@@ -1,12 +1,12 @@
-x = ("Hello, World!")
+x = "Hello, World!"
 type (x)
 print (type(x))
 
-x = (3+4)
+x = 3+4
 type (x)
 print (type(x))
 
-x = (3/4)
+x = 3/4
 type (x)
 print (type(x))
 
