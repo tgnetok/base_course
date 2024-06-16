@@ -3,7 +3,7 @@ EbatTebyaVRot = []
 EbatTebyaVRot.append (input("Ты долбоеб? "))
 EbatTebyaVRot.append (input("Ты гей? "))
 EbatTebyaVRot.append (int(input("Сколько у тебя см? ")))
-if EbatTebyaVRot == ['да', 'конечно', 228] : print ("ЕБАААААААТЬ")
+if EbatTebyaVRot == ['да', 'да', 228] : print ("ЕБАААААААТЬ")
 
 # кто прочитал, то пидор.
 # я тоже пидор.
