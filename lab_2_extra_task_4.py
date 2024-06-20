@@ -1,7 +1,7 @@
 a = int(input('Введите число: '))
 b = 2
 
-while a > 1 :
+while a < 1 :
     if a % b == 0 :
         print (b)
         a / b
