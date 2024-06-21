@@ -16,3 +16,4 @@ epsilon = 300 # otsosi u traktorista
 
 N = (2 / np.sqrt (np.pi)) * (h / (k * T) ** 3/2) * e ** (-epsilon/k * T) * epsilon ** (T/2)
 print (N)
+
