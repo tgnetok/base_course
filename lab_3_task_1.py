@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as baigashov
 
 G = 6.674 * 10 ** -11
 c = 2.99792458 * 10 ** 8
@@ -13,4 +13,4 @@ g = 9.806
 
 phys_const = [f'{G}, {c}, {h}, {e}, {k}, {n}, {F}, {R}, {V}, {g}']
 
-phys_const_array = np.array (phys_const)
+phys_const_array = baigashov.array (phys_const)
