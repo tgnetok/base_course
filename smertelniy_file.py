@@ -1,31 +1,31 @@
-EbatTebyaVRot = []
+ebat_tebya_v_rot = []
 
-EbatTebyaVRot.append (input("Ты долбоеб? "))
-EbatTebyaVRot.append (input("Ты гей? "))
-EbatTebyaVRot.append (int(input("Сколько у тебя см? ")))
-if EbatTebyaVRot == ['да', 'да', 228] : print ("ЕБАААААААТЬ")
+ebat_tebya_v_rot.append (input("Ты долбоеб? "))
+ebat_tebya_v_rot.append (input("Ты гей? "))
+ebat_tebya_v_rot.append (int(input("Сколько у тебя см? ")))
+if ebat_tebya_v_rot == ['да', 'да', 228] : print ("ЕБАААААААТЬ")
 
 # кто прочитал, тот пидор.
 # я тоже пидор.
 # ну пиздец.
 
-BDSM = "Ты тупой, ебать."
-Sex = "Шо, 200 IQ?!"
-Dolboeb = "Ответь да или нет, сука!"
-if EbatTebyaVRot[0] == "да" : print (BDSM)
-elif EbatTebyaVRot[0] == "нет" : print (Sex)
-else : print (Dolboeb)
+bdsm = "Ты тупой, ебать."
+sex = "Шо, 200 IQ?!"
+dolboeb = "Ответь да или нет, сука!"
+if ebat_tebya_v_rot[0] == "да" : print (bdsm)
+elif ebat_tebya_v_rot[0] == "нет" : print (sex)
+else : print (dolboeb)
 
-GayMaster = "Хахахаха, ты гей)))"
-NotGay = "Не верю, пидор."
-Debil = "БЫЛ ПРОСТОЙ ВОПРОС ДА ИЛИ НЕТ."
-if EbatTebyaVRot[1] == "да" : print (GayMaster)
-elif EbatTebyaVRot[1] == "нет" : print (NotGay)
-else: print (Debil)
+gay_master = "Хахахаха, ты гей)))"
+not_gay = "Не верю, пидор."
+debil = "БЫЛ ПРОСТОЙ ВОПРОС ДА ИЛИ НЕТ."
+if ebat_tebya_v_rot[1] == "да" : print (gay_master)
+elif ebat_tebya_v_rot[1] == "нет" : print (not_gay)
+else: print (debil)
 
-KorotkiyHui = "Пиздец..."
-BigHui = "Заебись!"
-if EbatTebyaVRot[2] < 30 : print (KorotkiyHui)
-elif EbatTebyaVRot[2] >= 30 : print (BigHui)
+korotkiy_hui = "Пиздец..."
+big_hui = "Заебись!"
+if ebat_tebya_v_rot[2] < 30 : print (korotkiy_hui)
+elif ebat_tebya_v_rot[2] >= 30 : print (big_hui)
 
 # это полный пиздец.
