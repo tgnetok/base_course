@@ -2,10 +2,11 @@ import numpy as baigashov
 
 N = int(input('Введите N: '))
 M = int(input('Введите M: '))
-i = []
-j = []
+i = int(input('Введите i: '))
+j = int(input('Введите j: '))
 
-trigonometry_array = baigashov.array ([N, M])
+for i
+trigonometry_array = baigashov.array ([[N], [M]], float)
 trigonometry_array[i, j] = baigashov.sin (N * i + M * j + 1) 
 
 if trigonometry_array[N] < 0 :
