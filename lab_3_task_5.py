@@ -14,4 +14,4 @@ for i in range (0, N, 1) :
 print (trigonometry_array)
 
 
-trigonometry_array ()
+a = trigonometry_array ()
