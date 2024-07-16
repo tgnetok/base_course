@@ -5,15 +5,18 @@ x1 = int(input('Введите первое значение x: '))
 x2 = int(input('Введите последнее значение x: '))
 N = int(input('Введите количество точек: '))
 
-def hyperbola_plotter (k = 3) :
+def ellipse_plotter (a = 6, b = 2) :
 
     x = baigashov.linspace (x1, x2, N)
-    y = k / x
+    y = baigashov.linspace (x1, x2, N)
+    X, Y = baigashov.meshgrid(x, y)
 
-    plt.plot (x, y) 
-    plt.title ('hyperbola')
+    fxy = X ** 2 / a **2 + Y ** 2 / b ** 2 - 1
 
-    plt.savefig ('yay_hyperbola.png')
+    plt.contour(X, Y, fxy, levels=[0])
+    plt.axis('equal')
+
+    plt.savefig ('yay_ellipse.png')
 
 if __name__ == '__main__':
-    hyperbola_plotter () 
+    ellipse_plotter () 
