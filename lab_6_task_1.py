@@ -5,4 +5,4 @@ y = (1, 5, 5, 1, 1)
 
 plt.plot (x, y)
 plt.axis('equal')
-plt.savefig ('square')
+plt.savefig ('square.png')
