@@ -46,7 +46,7 @@ def j_spiral (k = 1) :
 
 # роза
 
-def rose (k = 1) :
+def rose (k = 6) :
 
     fi = baigashov.arange (0.01, 8*baigashov.pi + 1, 0.1)
     r = baigashov.sin (k * fi)
@@ -57,3 +57,12 @@ def rose (k = 1) :
     plt.axis('equal')
     plt.title ('rose')
     plt.savefig ('rose.png')
+
+if __name__ == '__main__' :
+    rose ()
+    plt.clf()
+    j_spiral ()
+    plt.clf()
+    arch_spiral ()
+    plt.clf()
+    log_spiral ()
