@@ -20,8 +20,9 @@ class Pyramid :
         else :
             procent = (brks / self.bricks_count) * 100
             print (f'{procent} % сделано.')
+            print (brks)
 
 
-pyramid_1 = Pyramid (4)
+pyramid_1 = Pyramid (8)
 pyramid_1.add_bricks (6)
 pyramid_1.is_done ()
