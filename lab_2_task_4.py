@@ -2,6 +2,12 @@ class Planet :
 
     planet_count = 7
 
+
+    def __init__ (self, ) :
+
+        
+
+
     @classmethod
     def how_many_planets (cls) :
         pluto = input('Плутон - планета? ')
@@ -19,6 +25,9 @@ class Planet :
             print ('Home')
         else :
             print ('Not home')
+
+    @property
+
 
 Planet.name_planet ('Earth')
 Planet.how_many_planets ()
