@@ -2,14 +2,14 @@ class Planet :
 
     planet_count = 7
 
+    def __init__ (self, mass_planet_1, mass_planet_2) :
 
-    def __init__ (self, mars, earth) :
-
-        self.mars = mars
-        self.earth = earth
+        self.mass_planet_1 = mass_planet_1
+        self.mass_planet_2 = mass_planet_2
     
     @property
-    def planets_mass
+    def planets_mass (self) :
+        print (self.planet_1 + self.planet_2)
 
     @classmethod
     def how_many_planets (cls) :
@@ -28,9 +28,8 @@ class Planet :
             print ('Home')
         else :
             print ('Not home')
-
-    @property
-
-
+            
+planet_1 = Planet (6 * 10 ** 24, 4 * 10 ** 25)
+planet_1.planets_mass
 Planet.name_planet ('Earth')
 Planet.how_many_planets ()
