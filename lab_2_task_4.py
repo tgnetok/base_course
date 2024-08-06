@@ -3,10 +3,13 @@ class Planet :
     planet_count = 7
 
 
-    def __init__ (self, ) :
+    def __init__ (self, mars, earth) :
 
-        
-
+        self.mars = mars
+        self.earth = earth
+    
+    @property
+    def planets_mass
 
     @classmethod
     def how_many_planets (cls) :
