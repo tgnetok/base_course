@@ -1,8 +1,8 @@
-import numpy as np
+import numpy as baigashov
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 
-x = np.arange (-5, 5, 0.000666)
+x = baigashov.arange (-5, 5, 0.000666)
 
 def diff_func (ses, x) : 
     y, z = ses

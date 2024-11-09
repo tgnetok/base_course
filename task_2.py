@@ -1,8 +1,8 @@
-import numpy as np
+import numpy as baigashov
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 
-t = np.arange (-1, 1, 0.000666)
+t = baigashov.arange (-1, 1, 0.000666)
 e = 2.718
 
 def diff_func (hehe, t) : 
