@@ -1,28 +1,25 @@
-import numpy as np
+import numpy as baigashov
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 
-t = np.arange (0, 10,1000)
+t = baigashov.arange (-5, 5, 0.00666)
 
 def diff_func (z, t) : 
-    theta, omega = z 
+    y, omega = z 
 
-    dtheta_dt = omega
-    domega_dt = - k * omega - c * np.sin (theta)
+    dy_dt = omega
+    domega_dt = - 4 * omega - 5 * y
 
-    return dtheta_dt, domega_dt
+    return dy_dt, domega_dt
 
-theta0 = np.pi - 0.1
-omega0 = 0
+y0 = 4
+dy_dt0 = - 1
 
-z0 = theta0, omega0
-
-k = 0.25
-c = 5.0
+z0 = y0, dy_dt0
 
 sol = odeint (diff_func, z0, t)
 
-plt.plot (t, sol [:, 0], 'b', label = 'theta(t)')
+plt.plot (t, sol [:, 0], 'b', label = 'wewe')
 
 plt.legend ()
-plt.savefig ('fig_1.png')
+plt.savefig ('fig_4.png')
