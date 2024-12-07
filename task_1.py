@@ -1,14 +1,16 @@
 import numpy as baigashov
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation
 
-t = baigashov.arange (0, 5, 0.00666)
+t = baigashov.arange (0, 60, 0.0666)
+frames = 500
 
 def myachik_letet (z, t):
 
     x, vx, y, vy = z
 
-    dx_dt = vy
+    dx_dt = vx
     dvx_dt = 0
     dy_dt = vy
     dvy_dt = - g
@@ -43,7 +45,7 @@ def animate(i):
  
 ani = FuncAnimation(fig, animate, frames=frames, interval=30)
  
-edge = 15
+edge = 36
 ax.set_xlim(0, edge)
 ax.set_ylim(0, edge)
  
